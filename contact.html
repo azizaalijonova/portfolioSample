@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact me</title>
+    <link rel="stylesheet" href="./css/shared.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
+    <link rel="icon" href="/images/aaLogo.jpg" type="image/png" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Headrer starting -->
+      <header class="main-header">
+        <div class="container">
+          <div class="main-logo">
+            <a href="./portfolio.html">
+              <img src="./images/aaLogo.jpg" alt="Logo" />
+            </a>
+          </div>
+          <nav class="main-navigation">
+            <ul class="nav-buttons-top">
+              <li class="nav-button-top">
+                <a href="portfolio.html">Main</a>
+              </li>
+              <li class="nav-button-top">
+                <a href="about.html">About Me</a>
+              </li>
+              <li class="nav-button-top">
+                <a href="portfolioo.html">Portfolio</a>
+              </li>
+              <li class="nav-button-top">
+                <a href="contact.html">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <!-- Header ending -->
+      <!-- Contact space -->
+      <div class="container">
+        <section class="contact">
+          <div class="section-title">Contact with Me</div>
+          <form action="/server.php" method="get">
+            <textarea
+              rows="30"
+              placeholder="Write your text"
+              name="message"
+            ></textarea>
+            <div class="half-flex">
+              <div class="contact-firstname">
+                <input type="text" placeholder="Your name" name="firstname" />
+              </div>
+              <div class="contact-email">
+                <input type="email" placeholder="Your email" name="email" />
+              </div>
+            </div>
+
+            <input type="text" placeholder="Subject" name="subject" />
+            <input type="tel" placeholder="Phone number" name="phone" />
+            <button class="button contact-send" type="submit">Send</button>
+          </form>
+        </section>
+      </div>
+    </div>
+    <!-- Footer starting-->
+    <footer class="footer">
+      <div class="footer_logo">
+        <img src="./images/aaLogo.jpg" alt="logo" />
+      </div>
+      <div class="container">
+        <nav class="footer_navigation">
+          <ul class="footer_navigation_items">
+            <li class="footer_navigation_item">
+              <a href="./portfolio.html">Main</a>
+            </li>
+            <li class="footer_navigation_item">
+              <a href="*">About Me</a>
+            </li>
+            <li class="footer_navigation_item">
+              <a href="*">Portfolio</a>
+            </li>
+            <li class="footer_navigation_item">
+              <a href="./contact.html">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="footer_socials">
+          <li class="footer_social">
+            <a href="">
+              <i class="fab fa-telegram"></i>
+            </a>
+          </li>
+          <li class="footer_social">
+            <a href="">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li class="footer_social">
+            <a href="">
+              <i class="fab fa-square-instagram"></i>
+            </a>
+          </li>
+          <li class="footer_social">
+            <a href="">
+              <i class="fab fa-square-facebook"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <!-- Footer ending-->
+  </body>
+</html>
